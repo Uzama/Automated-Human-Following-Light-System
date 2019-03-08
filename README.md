@@ -1,2 +1,6 @@
-# Automated-Human-Following-Light-System
-This is a project for cvil engineering construction field. The system could identify the workers in field and automatically turn the light on and rotate the focus light at the majority workers without human interaction
+Present, all civil engineering roadside and other construction works are going at the late night due to the heavy traffic on daytime, the deadline of the projects and so on. So, they have to use focus lights for brightening their working area. But the focus light does not think anymore. The focused light always on, even there are no workers in the field and always they have to control manually to rotate the focus light when they have to change their working area. It is very difficult to change the focusing point always in large construction works.  
+So we come up with a solution for this. We use image processing concept to deduce the problem much efficiently. We use a thermal camera, image processing concepts and some machine learning algorithms to detect the location of the majority works are present in the field and focus the light on the point. Also, it automatically lit up itself when at least a worker enters
+into the field. Otherwise, it always lit down.   
+We are given almost six months to complete the project. We are a group of three people and we divided our project into 3 subtasks, thus make us to working parallelly and able to complete the project within the deadline.
+
+The technology we used: Python as a core language, OpenCV for image processing, Machine learning algorithms for human detection. Finally raspberry pi for control the system.
